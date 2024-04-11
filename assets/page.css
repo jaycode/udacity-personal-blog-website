@@ -1,0 +1,47 @@
+@import url("main.css");
+@import url("header.css");
+@import url("footer.css");
+
+.container-page,
+.sidebar {
+    margin-top: 20px;
+}
+
+.container-page {
+    flex: 3;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.sidebar h2,
+.sidebar ul {
+    background: #f9f9f9;
+    padding: 10px;
+    list-style: none;
+}
+
+.container-page {
+    display: flex;
+}
+
+.meta {
+    color: #646464;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .container-page {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
