@@ -9,6 +9,14 @@ body {
     max-width: 1200px;
 }
 
+a svg, svg a {
+    cursor: pointer;
+}
+
 pre {
     text-align: left;
+}
+
+a {
+    text-decoration: underline;
 }
