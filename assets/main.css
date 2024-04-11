@@ -7,6 +7,19 @@ body {
 
 .container {
     max-width: 1200px;
+    display: grid;
+}
+
+.header {
+    grid-row: 1;
+}
+
+.content {
+    grid-row: 2;
+}
+
+.footer {
+    grid-row: 3;
 }
 
 a svg, svg a {
@@ -19,4 +32,18 @@ pre {
 
 a {
     text-decoration: underline;
+}
+
+.image-area {
+    display: block;
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
 }
